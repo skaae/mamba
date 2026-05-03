@@ -17,7 +17,7 @@ classifiers = [
 ]
 dependencies = [
     "torch",
-    "tilelang==0.1.8",
+    "tilelang>=0.1.8",
     "apache-tvm-ffi<=0.1.9",
     "quack-kernels>=0.3.4",
     "triton>=3.5.0",
@@ -28,7 +28,7 @@ dependencies = [
     "setuptools>=61.0.0",
 ]
 [project.urls]
-Repository = "https://github.com/state-spaces/mamba"
+Repository = "https://github.com/skaae/mamba"
 
 [project.optional-dependencies]
 causal-conv1d = [
